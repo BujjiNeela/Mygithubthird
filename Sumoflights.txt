@@ -1,0 +1,15 @@
+class Sumoflights
+{
+public static void main(String args[])
+{
+String s="sathya@1234";
+		int sum=0,i;
+		for(i=0;i<s.length();i++)
+		{
+			char ch10=s.charAt(i);
+			if(ch10>='0' && ch10<='9')
+				sum=sum+(ch10-48);
+		}
+		System.out.println(sum);
+}
+}
